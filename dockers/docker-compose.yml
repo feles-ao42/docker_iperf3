@@ -3,7 +3,7 @@ version: '3'
 services:
   up-server:
     build:
-      context: iperf3
+      context: ./
       dockerfile: iperf3/Dockerfile
     container_name: "iperf3-ip"
     ports:
@@ -19,7 +19,7 @@ services:
 
   down-server:
     build:
-      context: iperf3
+      context: ./
       dockerfile: iperf3/Dockerfile
     container_name: "iperf3-down"
     ports:
