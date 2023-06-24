@@ -1,4 +1,4 @@
-## Run it
+# Run it
 
 ```shell
 > docker-compose build --no-cache
